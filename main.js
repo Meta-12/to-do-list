@@ -1,3 +1,5 @@
+loadFromLocalStorage();
+
 let btn = document.querySelector("#todo-btn");
 let input = document.getElementById("todo-input");
 let ul = document.getElementById("todo-items");
@@ -41,4 +43,3 @@ function loadFromLocalStorage() {
   }
 }
 
-loadFromLocalStorage();
