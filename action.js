@@ -1,10 +1,9 @@
-loadFromLocalStorage();
 
 let btn = document.getElementById("todo-btn");
 let input = document.getElementById("todo-input");
 let ul = document.getElementById("todo-items");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", () => {
   if (input.value.trim() === "") {
     alert("Please enter a todo item");
     return;
@@ -42,3 +41,4 @@ function loadFromLocalStorage() {
     ul.innerHTML = todos;
   }
 }
+loadFromLocalStorage();
