@@ -1,6 +1,6 @@
 loadFromLocalStorage();
 
-let btn = document.querySelector("#todo-btn");
+let btn = document.getElementById("todo-btn");
 let input = document.getElementById("todo-input");
 let ul = document.getElementById("todo-items");
 
@@ -42,4 +42,3 @@ function loadFromLocalStorage() {
     ul.innerHTML = todos;
   }
 }
-
